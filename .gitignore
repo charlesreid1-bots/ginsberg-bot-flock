@@ -1,10 +1,9 @@
 vp/
 rmm/
-rainbowmindmachine.log
 
-# bot flock
-apikeys.py
-apikeys.json
+# bot stuff
+bot/keys/*.json
+bot/apikeys.json
 keys/
 
 # pelican
