@@ -12,14 +12,14 @@ fh.setLevel(logging.INFO)
 logger.addHandler(fh)
 
 BASEDIR = os.path.abspath(os.path.dirname(__file__))
-DATADIR = os.path.join(BASEDIR, 'data')
+DATADIR = os.path.join(BASEDIR, 'poems')
 KEYSDIR = os.path.join(BASEDIR, 'keys')
 LIVE = False
 
 
 def main():
     keys_exists = os.path.isdir(KEYSDIR)
-    keys_has_keys = len(glob.glob(os.path.join(KEYSDIR,"*.json"))) > 0
+    keys_has_keys = len(glob.glob(os.path.join(KEYSDIR, "*.json"))) > 0
     if( keys_exists and keys_has_keys ):
         print("running bot")
         run()
