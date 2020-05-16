@@ -7,7 +7,7 @@ logger = logging.getLogger('')
 logger.setLevel(logging.INFO)
 logger.addHandler(ch)
 
-fh = logging.FileHandler(filename='apollo-space-junk.log')
+fh = logging.FileHandler(filename='ginsberg.log')
 fh.setLevel(logging.INFO)
 logger.addHandler(fh)
 
