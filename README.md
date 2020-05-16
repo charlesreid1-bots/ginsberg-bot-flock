@@ -81,7 +81,7 @@ this is the recommended layout.
 
 ## Where Do I Put My apikeys.json
 
-The file `apikey.py` should go next to `GinsbergBotFlock.py`:
+The file `apikey.json` should go next to `GinsbergBotFlock.py`:
 
 ```
 bot/
