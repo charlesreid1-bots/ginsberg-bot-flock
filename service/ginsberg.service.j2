@@ -1,0 +1,14 @@
+[Unit]
+Description=ginsberg bot flock
+
+[Service]
+Restart=always
+User={{ ginsberg_user }}
+Group=wheel
+ExecStart={{ ginsberg_path }}/vp/bin/python -u {{ ginsberg_path }}/bot/GinsbergBotFlock.py
+ExecStop=/usr/bin/killall {{ ginsberg_path }}/vp/bin/python
+
+[Install]
+WantedBy=default.target
+
+
