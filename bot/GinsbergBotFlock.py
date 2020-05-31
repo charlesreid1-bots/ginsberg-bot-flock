@@ -13,7 +13,7 @@ DATADIR = os.path.join(BASEDIR, 'data')
 KEYSDIR = os.path.join(BASEDIR, 'keys')
 LOGNAME = 'ginsberg.log'
 LOGDIR = BASEDIR
-LIVE = False
+LIVE = True
 
 
 fh = logging.FileHandler(filename=os.path.join(LOGDIR, LOGNAME))
