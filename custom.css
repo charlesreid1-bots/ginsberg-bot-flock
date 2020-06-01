@@ -1,0 +1,51 @@
+
+.intro {
+  color: white;
+  width: 100%;
+  padding: 100px 0;
+  background: url( img/main.jpg ) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.links-section {
+  color: white;
+  width: 100%;
+  padding: 50px 0;
+  background: url( img/face.jpg ) no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+
+
+.scuryv-knave-intro {
+    color: #fff;
+}
+a {
+  color: #edac00;
+}
+a:hover,
+a:focus {
+  color: #b48400;
+}
+.btn-default {
+  border: 1px solid #edac00;
+  color: #edac00;
+  /*background-color: transparent;*/
+  background-color: #000;
+}
+.btn-default:hover,
+.btn-default:focus {
+  border: 1px solid #edac00;
+  outline: none;
+  color: black;
+  background-color: #edac00;
+}
