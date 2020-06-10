@@ -66,7 +66,7 @@ library.
 
 For more information about bots and bot flocks, see [bots.charlesreid1.com](https://bots.charlesreid1.com).
 
-Find the bots on twitter at the [ginsberg bot flock twitter list](https://twitter.com/charlesreid1/lists/ginsbergbotflock)
+Find the bots on twitter at the [ginsberg bot flock twitter list](https://twitter.com/i/lists/1267145777006034944)
 
 [@gbf_america](https://twitter.com/gbf_america) &bull;
 [@gbf_auntrose](https://twitter.com/gbf_auntrose) &bull;
